@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+   
+}
+body{
+    background:black;
+    color:#fff;
+    overflow-x: hidden;
+}
+.header{
+    width:100%;
+    height:85vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix-collection.jpeg);
+    background-size:cover;
+    background-position:center;
+    padding:10px 8%;
+    position:relative;
+    z-index: -20;
+}
+.logo{
+    width:11.5%;
+    position:absolute;
+    left:3vw;
+    top:-0vh;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 0;
+
+}
+.buttons{
+    position:absolute;
+    display:flex;
+    top:3vh;
+    right:4vw;
+    height:3vh;
+    padding: 7px 20px;   
+}
+.buttons .sign{
+    background-color:rgb(227, 15, 15);
+    border:0;
+    height:4.5vh;
+    width:5.8vw;
+    -webkit-text-fill-color: white;
+    border-radius:5%;
+    font-size:1vw;
+    
+}
+.buttons .sign:hover{
+    background-color: red;
+}
+.buttons .lang{
+background:transparent;
+border: solid;
+border-width:1px;
+border-color: rgb(186, 173, 173);
+height:4.5vh;
+width:6.5vw;
+-webkit-text-fill-color: white;
+border-radius:5%;
+position:absolute;
+right:10vw;
+}
+.title{
+    font-size: larger;
+    -webkit-text-fill-color: white;
+    position:absolute;
+    top:30vh;
+    left:33vw;
+    text-align: center;
+    font-weight:2500;
+    font-size:25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.ek{
+    position:absolute;
+    top:48vh;
+    left:37vw;
+    text-align: center;
+    font-weight:200;
+    font-size:27px;
+    font-family:Helvetica;
+}
+.ready{
+    position:absolute;
+    top:55vh;
+    left:28vw;
+    text-align: center;
+    font-weight:200;
+    font-size:20px;
+    font-family:Helvetica;
+}
+.email{
+    position:absolute;
+    top:60vh;
+    left:27vw;
+    
+    
+}
+.email input{
+    flex:1;
+    border:0px;
+    outline:0;
+    margin-left:20px;
+
+}
+input.em {
+    box-sizing: border-box;
+    width: 100%;
+    text-indent: 30px;
+    font-family: poppins;
+  }
+#email{
+    width:33vw;
+    height:6vh;
+    border:solid;
+
+}
+
+.get{
+    height:6vh;
+    width:13vw;
+    background:rgb(237, 18, 18);
+    border:none;
+    position:relative;
+    right:0.35vw;
+    top:0.57vh;
+    font-size:3vh;
+    font-weight:light;
+    -webkit-text-fill-color: white;
+}
+.get:hover{
+    background:rgb(255, 0, 0);
+}
+
+.divider{
+    position:absolute;
+    width:100%;
+    height:1vh;
+    background-color: rgb(48, 45, 45);
+    margin:0;
+    border:0;
+    z-index: 10;
+}
+.section-2{
+    height:55vh;
+    width:100%;
+}
+.image{
+    height:50vh;
+    width:30vw;
+    position:relative;
+    left:65vw;
+    top:-25.8vh;
+    background: url('tv.png');
+    background-size:cover;
+    background-position:center;
+}
+.image2{
+    height:30vh;
+    width:30vw;
+    z-index: -10;
+    position:relative;
+    left:65vw;
+    top:-67vh;
+    background: url('net-gif.gif');
+    background-size:cover;
+    background-position:center;
+
+}
+.Enjoy{
+    position:relative;
+    top:10vh;
+    left:10vw;
+    font-weight: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+.gg{
+    position:relative;
+    top:15vh;
+    left:10vw;
+    font-weight: bolder;
+    font-family: poppins,helvetica;
+    font-size: 25px;
+    font-weight: 400;
+}
+.section-3{
+
+    height:70vh;
+    width:100%;
+}
+
+.mobile-image{
+    height:45vh;
+    width:35vw;
+    background-image:url(mobile-0819.jpeg);
+    background-position: cover;
+    position:relative;
+    left:5vw;
+    top:-15vh;
+
+}
+.save{
+    position:relative;
+    top:25vh;
+    left:50vw;
+    font-weight: bolder;
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 400;
+}
+.Download{
+    position:relative;
+    top:20vh;
+    left:50vw;
+    font-weight: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;   
+}
+.box{
+    position:relative;
+    top:-20vh;
+    left:15vw;
+    height:12.5vh;
+    width:25vw;
+    background-color:black;
+    border-radius:0.8vw;
+    border:2px solid grey;
+}
+.boxshot{
+    position:relative;
+    margin:5px;
+    height:6vw;
+    width:10vh;
+}
+.stranger{
+    height:10vh;
+    margin:7px;
+}
+.s{
+    position:relative;
+    top:-9vh;
+    left:6vw;
+    white-space:nowrap;
+    font-family: Helvetica;
+    font-size:1.3vw;
+}
+.d{
+    -webkit-text-fill-color: rgb(4, 125, 238);
+    position:relative;
+    top:-8.5vh;
+    left:6vw;
+    font-weight:400;
+    font-family: Helvetica;
+    font-size:1.2vw;
+}
+.fa-spin{
+      position:relative;
+      top:-5vh;
+      left:14.5vw;
+}
+.dev{
+    height:45vh;
+    width:50vw;
+    background-image:url(device-pile-in.png);
+    background-position: cover;
+    position:relative;
+    left:55vw;
+    top:-15vh;
+
+}
+.inception{
+    height:30vh;
+    width:25vw;
+    background-image:url(inception.webp);
+    background-position: cover;
+    position:relative;
+    left:65vw;
+    top:-52.5vh;
+    z-index: -10;
+    overflow: hidden;
+
+}
+.child{
+    height:55vh;
+    width:35vw;
+    background-image:url(children.png);
+    background-position: cover;
+    position:relative;
+    left:5vw;
+    top:-25vh;
+}
+.section-4{
+    height:100vh;
+    width:100%;
+}
+
+/*-------faq----------*/
+.faq{
+       padding:10px 12%;
+       text-align: center;
+       font-size:2.5vw;
+       font-family: arial;
+       position:relative;
+       top:10vh;
+}
+.accordion{
+    margin: 3vw auto;
+    width:100%;
+    max-width:750px;
+}
+.accordion li{
+    list-style: none;
+    width:100%;
+    padding:5px;
+}
+.accordion li label{
+    display:flex;
+    align-items:center;
+    padding:30px;
+    font-size:23px;
+    font-weight:500;
+    background:#303030;
+margin-bottom:2px;
+cursor:pointer;
+position:relative;
+
+
+}
+label::after{
+    content:'+';
+    font-size:50px;
+    position:absolute;
+    right:20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]
+{
+    display:none;
+}
+.accordion .content{
+    background:#303030;
+    text-align:left;
+    padding:0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+    font-size: 25px;
+}
+.accordion input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding:30px 20px;
+    font-size: 25px;
+}
+.accordion input[type="radio"]:checked+label::after{
+    transform: rotate(45deg);
+}
+.email2 input{
+    flex:1;
+    border:0px;
+    outline:0;
+    margin-left:20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    left:25%;
+    top:20vh;
+
+
+}
+input.em {
+    box-sizing: border-box;
+    width: 100%;
+    text-indent: 30px;
+    font-family: poppins;
+  }
+#email{
+    width:33vw;
+    height:6vh;
+    border:solid;
+
+}
+.get2{
+    height:6vh;
+    width:13vw;
+    background:rgb(237, 18, 18);
+    border:none;
+    position:relative;
+    font-size:3vh;
+    font-weight:light;
+    -webkit-text-fill-color: white;
+    top:20.5vh;
+    left:24.5vw;
+}
+.get2:hover{
+    background:rgb(255, 0, 0);
+}
+.wch{
+    position:relative;
+    top:15vh;
+    left:25%;
+    font-family: poppins;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.footer{
+    padding: 50px 15% 10px;
+    color:rgb(181, 168, 168);
+    font-family:poppins;
+    font-size:14px;
+}
+.footer h2{
+    font-size:18px;
+    font-weight: 400;
+    margin-bottom:30px;
+    
+}
+
+.footer .col{
+    flex-basis:20%;
+    flex-grow:1;
+    margin-bottom:20px;
+    float:left;
+    padding-left:200px;
+    align-items: flex-end;
+    position:relative;
+    right:20vh;
+    font-weight:1000;
+}
+.footer .col a{
+    display:block;
+    text-decoration: none;
+    color:rgb(228, 208, 208);
+    font-size:14px;
+    margin-bottom: 10px;
+}
+.button .lang1{
+    background:transparent;
+    border: solid;
+    border-width:1px;
+    border-color: rgb(186, 173, 173);
+    height:4.5vh;
+    width:6.5vw;
+    -webkit-text-fill-color: white;
+    border-radius:5%;
+    position:relative;
+    right:66vw;
+    top:25vh;
+    }
+    .legend{
+        position:relative;
+    right:66vw;
+    top:27vh;
+    font-family: poppins;
+    }
+
+    @media only screen and (max-width:1189px){
+        .footer .col{
+            flex-basis:20%;
+            flex-grow:1;
+            margin-bottom:20px;
+            float:left;
+            padding-left:140px;
+            position:relative;
+            right:20vh;
+            font-weight:1000;
+        }
+        
+
+        
+    }
